@@ -62,7 +62,7 @@ Gem::Specification.new do |s|
     end
   else
     s.add_dependency(%q<ruby-hmac>, [">= 0"])
-    s.add_dependency(%q<soap4r>, [">= 0"])
+    s.add_dependency(%q<mumboe-soap4r>, [">= 0"])
     s.add_dependency(%q<shoulda>, [">= 0"])
     s.add_dependency(%q<bundler>, ["~> 1.0.0"])
     s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
